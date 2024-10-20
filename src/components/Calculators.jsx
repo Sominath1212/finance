@@ -40,7 +40,7 @@ function Calculators() {
     <>
       <h2 className='calculators  text-blue-700 px-16 md:flex items-center justify-center md:py-3 relative text-4xl font-bold '>Calculators</h2>
 
-      <section className='mx-auto md:px-16 pt-10 py-4 space-y-1 px-auto flex-wrap flex  items-center justify-center  md:space-x-6 flex-auto2'>
+      <section className='mx-auto md:px-16 px-2 pt-10 py-4 space-y-1 px-auto flex-wrap flex  items-center justify-center  md:space-x-6 flex-auto2'>
         {
           calsis.map((item, i) => {
             return (<Cart key={i} title={item.title} image={item.image} path={item.path} />)
