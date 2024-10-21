@@ -34,7 +34,7 @@ const Mf = () => {
 
                 <div>
                     <label className="block text-sm font-medium text-gray-700">
-                        Expected return rate (p.a)
+                        Expected rate of return (p.a)
                     </label>
                     <input
                         type="range"
@@ -51,7 +51,7 @@ const Mf = () => {
 
                 <div>
                     <label className="block text-sm font-medium text-gray-700">
-                        Time period
+                        Time period(Years)
                     </label>
                     <input
                         type="range"
@@ -72,7 +72,7 @@ const Mf = () => {
                         <p className="text-xl font-bold">₹{totalInvestment.toLocaleString()}</p>
                     </div>
                     <div>
-                        <p className="text-gray-500">Est. returns</p>
+                        <p className="text-gray-500">Expected annual returns</p>
                         <p className="text-xl font-bold">₹{Math.round(estReturns).toLocaleString()}</p>
                     </div>
                 </div>

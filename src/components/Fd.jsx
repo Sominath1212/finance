@@ -16,7 +16,7 @@ const Fd = () => {
 
   return (
     <div className="max-w-lg mx-auto md:p-4 px-3 relative top-[60px]  md:top-[90px] bg-white shadow-lg rounded-lg">
-      <h2 className="text-2xl md:text-4xl font-bold mb-4"> Calculat Your <span className='text-green-500'>Fixed Diposite</span></h2>
+      <h2 className="text-2xl md:text-4xl font-bold mb-4"> Calculate Your <span className='text-green-500'>Fixed Deposit</span></h2>
       
       <div className="mb-4">
         <label className="block text-gray-700 font-semibold ">Total investment</label>
